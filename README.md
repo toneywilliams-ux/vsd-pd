@@ -26,9 +26,11 @@ Once inside the Codespace terminal (or through the noVNC desktop terminal):
 ```bash
 cd ~/Desktop
 git clone https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts.git
-cd OpenROAD-flow-scripts/flow
+cd OpenROAD-flow-scripts
+git checkout bab0134eb~1
+cd flow
 make
-````
+```
 
 When the process finishes successfully, you’ll see a log summary similar to this:
 ![Flow Complete](images/8_makeCompletes.jpg)
